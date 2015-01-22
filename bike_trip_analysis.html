@@ -119,7 +119,7 @@ summary(raw.trip_data)</code></pre>
 </div>
 <div id="problem-1" class="section level3">
 <h3>Problem 1</h3>
-<p>The problem description asks for the average duration in minutes. The duration is already given to us as an own feature and the summary-call already reveals it’s mean. However, in order to check the unit of the column, I compare some data rows with the start and end date:</p>
+<p>The problem description asks for the average duration a bike was used during the observation period in minutes. The duration is already given to us as an own feature. However, in order to check the unit of the column, I compare some data rows with the start and end date:</p>
 <pre class="r"><code>head(ana.trip_data %&gt;% select(Duration, Start.Date, End.Date))</code></pre>
 <pre><code>##   Duration          Start.Date            End.Date
 ## 1       63 2013-08-29 14:13:00 2013-08-29 14:14:00
@@ -136,7 +136,7 @@ summary(raw.trip_data)</code></pre>
   summarize(mean(total)) / 60</code></pre>
 <pre><code>##   mean(total)
 ## 1    4288.087</code></pre>
-<p>Thus, the average total duration of a trip is 4288.087 minutes.</p>
+<p>Thus, the average total duration of a bike in usage is 4288.087 minutes.</p>
 </div>
 <div id="problem-2" class="section level3">
 <h3>Problem 2</h3>
