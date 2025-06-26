@@ -2,3 +2,7 @@ baseURL = 'https://sweb.github.io/'
 languageCode = 'en-us'
 title = "Flo's blog"
 theme = "PaperMod"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
