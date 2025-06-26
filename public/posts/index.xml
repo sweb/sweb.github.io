@@ -20,6 +20,7 @@
 &lt;li&gt;&lt;a href=&#34;https://www.lesswrong.com/posts/dxiConBZTd33sFaRC/field-notes-from-shipping-real-code-with-claude&#34;&gt;Field Notes from Shipping Real Code with Claude&lt;/a&gt;: Lot&amp;rsquo;s of helpful notes on how a team is using Claude Code, especially what to include in &lt;code&gt;CLAUDE.md&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://lucumr.pocoo.org/2025/6/12/agentic-coding/&#34;&gt;Agentic Coding Recommendations&lt;/a&gt;: Post about techniques to make Claude Code viable and what works, e.g. the choice for using Go as a language and the idea that iteration speed is the most important thing.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://lucumr.pocoo.org/2025/6/21/my-first-ai-library/&#34;&gt;My First Open Source AI Generated Library&lt;/a&gt;: Short but specific post by Armin Ronacher about building a Python library using Claude Code&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://simonwillison.net/2025/Mar/11/using-llms-for-code/&#34;&gt;Here’s how I use LLMs to help me write code&lt;/a&gt;: Long post by Simon Willisonwith general advice on using LLMs for coding that also features a Claude Code example.&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
   </channel>
