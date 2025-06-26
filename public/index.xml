@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Flo&#39;s blog</title>
+    <link>https://sweb.github.io/</link>
+    <description>Recent content on Flo&#39;s blog</description>
+    <generator>Hugo -- 0.147.9</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Jun 2025 21:12:40 +0200</lastBuildDate>
+    <atom:link href="https://sweb.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Claude Code Useful Links</title>
+      <link>https://sweb.github.io/posts/claude-code-useful-links/</link>
+      <pubDate>Thu, 26 Jun 2025 21:12:40 +0200</pubDate>
+      <guid>https://sweb.github.io/posts/claude-code-useful-links/</guid>
+      <description>&lt;p&gt;In the last weeks I have been using &lt;a href=&#34;https://www.anthropic.com/claude-code&#34;&gt;Claude Code&lt;/a&gt; more and more. Before that, aider was my main driver with occasional use of Github Copilot now and then.&lt;/p&gt;
+&lt;p&gt;This is my collection of useful blog posts on how to use Claude Code:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://claudelog.com/&#34;&gt;ClaudeLog&lt;/a&gt;: Extensive collection of information about Claude Code, how to set it up and what workflows have worked. Also some motivation why using tools like Claude Code is basically a must have.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.lesswrong.com/posts/dxiConBZTd33sFaRC/field-notes-from-shipping-real-code-with-claude&#34;&gt;Field Notes from Shipping Real Code with Claude&lt;/a&gt;: Lot&amp;rsquo;s of helpful notes on how a team is using Claude Code, especially what to include in &lt;code&gt;CLAUDE.md&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://lucumr.pocoo.org/2025/6/12/agentic-coding/&#34;&gt;Agentic Coding Recommendations&lt;/a&gt;: Post about techniques to make Claude Code viable and what works, e.g. the choice for using Go as a language and the idea that iteration speed is the most important thing.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://lucumr.pocoo.org/2025/6/21/my-first-ai-library/&#34;&gt;My First Open Source AI Generated Library&lt;/a&gt;: Short but specific post by Armin Ronacher about building a Python library using Claude Code&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>
