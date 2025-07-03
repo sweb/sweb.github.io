@@ -1,6 +1,6 @@
 baseURL = 'https://sweb.github.io/'
 languageCode = 'en-us'
-title = "Flo's blog"
+title = "Flo's notes"
 theme = "PaperMod"
 
 [caches]
