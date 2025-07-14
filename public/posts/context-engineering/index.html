@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="noindex, nofollow">
 <title>Context Engineering | Flo&#39;s notes</title>
 <meta name="keywords" content="">
 <meta name="description" content="In the last days, the term context engineering as a replacement or maybe redefinition of prompt engineering has emerged. Philipp Schmid gives an overview about the topic in a recent blog post.
 In summary, the idea is that proper LLM usage, especially in context of agentic workflows or systems, is less about this one magic prompt but more about deliberately choosing, what to put into the context of the LLM. This is particularly important when there is a lot of back and forth, e.g. due to chat interactions or a coding agent that works on a more complex tasks, needing to read multiple files with a broad context.">
 <meta name="author" content="">
-<link rel="canonical" href="https://sweb.github.io/posts/context-engineering/">
+<link rel="canonical" href="http://localhost:1313/posts/context-engineering/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css" integrity="sha256-j&#43;ECM6cGvIfy4Is8&#43;XuL1MCoDxBnWhQ2ddWSEhIQN8A=" rel="preload stylesheet" as="style">
-<link rel="icon" href="https://sweb.github.io/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://sweb.github.io/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://sweb.github.io/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://sweb.github.io/apple-touch-icon.png">
-<link rel="mask-icon" href="https://sweb.github.io/safari-pinned-tab.svg">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="https://sweb.github.io/posts/context-engineering/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/context-engineering/">
 <noscript>
     <style>
         #theme-toggle,
@@ -56,70 +56,7 @@ In summary, the idea is that proper LLM usage, especially in context of agentic 
         }
 
     </style>
-</noscript><meta property="og:url" content="https://sweb.github.io/posts/context-engineering/">
-  <meta property="og:site_name" content="Flo&#39;s notes">
-  <meta property="og:title" content="Context Engineering">
-  <meta property="og:description" content="In the last days, the term context engineering as a replacement or maybe redefinition of prompt engineering has emerged. Philipp Schmid gives an overview about the topic in a recent blog post. In summary, the idea is that proper LLM usage, especially in context of agentic workflows or systems, is less about this one magic prompt but more about deliberately choosing, what to put into the context of the LLM. This is particularly important when there is a lot of back and forth, e.g. due to chat interactions or a coding agent that works on a more complex tasks, needing to read multiple files with a broad context.">
-  <meta property="og:locale" content="en-us">
-  <meta property="og:type" content="article">
-    <meta property="article:section" content="posts">
-    <meta property="article:published_time" content="2025-07-01T21:48:57+02:00">
-    <meta property="article:modified_time" content="2025-07-01T21:48:57+02:00">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Context Engineering">
-<meta name="twitter:description" content="In the last days, the term context engineering as a replacement or maybe redefinition of prompt engineering has emerged. Philipp Schmid gives an overview about the topic in a recent blog post.
-In summary, the idea is that proper LLM usage, especially in context of agentic workflows or systems, is less about this one magic prompt but more about deliberately choosing, what to put into the context of the LLM. This is particularly important when there is a lot of back and forth, e.g. due to chat interactions or a coding agent that works on a more complex tasks, needing to read multiple files with a broad context.">
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "Posts",
-      "item": "https://sweb.github.io/posts/"
-    }, 
-    {
-      "@type": "ListItem",
-      "position":  2 ,
-      "name": "Context Engineering",
-      "item": "https://sweb.github.io/posts/context-engineering/"
-    }
-  ]
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "Context Engineering",
-  "name": "Context Engineering",
-  "description": "In the last days, the term context engineering as a replacement or maybe redefinition of prompt engineering has emerged. Philipp Schmid gives an overview about the topic in a recent blog post. In summary, the idea is that proper LLM usage, especially in context of agentic workflows or systems, is less about this one magic prompt but more about deliberately choosing, what to put into the context of the LLM. This is particularly important when there is a lot of back and forth, e.g. due to chat interactions or a coding agent that works on a more complex tasks, needing to read multiple files with a broad context.\n",
-  "keywords": [
-    
-  ],
-  "articleBody": "In the last days, the term context engineering as a replacement or maybe redefinition of prompt engineering has emerged. Philipp Schmid gives an overview about the topic in a recent blog post. In summary, the idea is that proper LLM usage, especially in context of agentic workflows or systems, is less about this one magic prompt but more about deliberately choosing, what to put into the context of the LLM. This is particularly important when there is a lot of back and forth, e.g. due to chat interactions or a coding agent that works on a more complex tasks, needing to read multiple files with a broad context.\nThe Hacker News comment section on this blog post is quite extensive and discusses primarily:\nwhether context engineering is indeed a better scoped definition than prompt engineering (everyone seems to agree that prompt engineering does not deserve the term engineering) how sensitive LLMs are to context, especially when newer models provide huge context lengths It seems to be pretty clear that the right context makes a huge difference. Just focusing on the prompt is probably too narrow as a lot of usage patterns now include ways to expand the context dramatically so being deliberate about what and how to put e.g. source files or documentation into an LLM is even more important.\n",
-  "wordCount" : "220",
-  "inLanguage": "en",
-  "datePublished": "2025-07-01T21:48:57+02:00",
-  "dateModified": "2025-07-01T21:48:57+02:00",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://sweb.github.io/posts/context-engineering/"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Flo's notes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://sweb.github.io/favicon.ico"
-    }
-  }
-}
-</script>
+</noscript>
 </head>
 
 <body class="" id="top">
@@ -137,7 +74,7 @@ In summary, the idea is that proper LLM usage, especially in context of agentic 
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://sweb.github.io/" accesskey="h" title="Flo&#39;s notes (Alt + H)">Flo&#39;s notes</a>
+            <a href="http://localhost:1313/" accesskey="h" title="Flo&#39;s notes (Alt + H)">Flo&#39;s notes</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -197,7 +134,7 @@ In summary, the idea is that proper LLM usage, especially in context of agentic 
     </main>
     
 <footer class="footer">
-        <span>&copy; 2025 <a href="https://sweb.github.io/">Flo&#39;s notes</a></span> · 
+        <span>&copy; 2025 <a href="http://localhost:1313/">Flo&#39;s notes</a></span> · 
 
     <span>
         Powered by
